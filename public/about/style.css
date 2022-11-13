@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+}
+header {
+    background: rgb(0, 0, 0);
+    text-align: center;
+    width: 100%;
+  }
+  header nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 15px;
+    margin: 5px;
+    display: inline-block;
+    font-weight: 300;
+    letter-spacing: 2px;
+  }
+  header nav a span {
+    display: inline-block;
+  }
+  header nav a span:after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 0;
+    height: 2px;
+    background-color: #00ab00;
+    -webkit-transition: opacity .3s ease, width .3s ease;
+    -moz-transition: opacity .3s ease, width .3s ease;
+    -o-transition: opacity .3s ease, width .3s ease;
+    transition: opacity .3s ease, width .3s ease;
+    -ms-transition: opacity .3s ease, width .3s ease;
+  }
+  header nav a:hover span:after {
+    width: 100%;
+  }
+ 
+
+.banner-wrap {
+    position: relative;
+}
+
+.banner {
+    height: 280px;
+    width: 100%;
+    background-image: url('./assets/objectives.jpeg');
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-color: transparent;
+    background-size: cover;
+    margin: 0px 0 20px 0;
+}
+
+.banner-content {
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.content{
+    padding: 60px;
+    font-size: 18px;
+}
+
+.content > h3 {
+    color: #626262;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+
+
+ol li{
+    font-size: 20px;
+    color: #626262;
+    line-height: 35px;
+    word-wrap: break-word;
+}
+
+.content-ol{
+    width: 90%;
+    margin: 0 80px;    
+}
+
+.img-cnt{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.cards1 ,.cards2{
+    display: flex;
+    margin-top: 10px;
+}
+
+.img{
+    height: 300px;
+    width: 33.33%;
+    margin-right: 10px;
+}
+
+img{
+    height: 300px;
+    width: 100%;
+}
+
+.origin-img{
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 30px;
+    padding: 20px;
+    text-align: center;
+}
+.origin-img > img {
+    height: 500px;
+    width: 70%;
+}

@@ -1,0 +1,144 @@
+
+  header {
+     background: rgba(0,0,0,0.3);
+     text-align: center;
+     
+     width: 100%;
+     margin-bottom: 50px;
+   }
+   header nav a {
+     color: #fff;
+     text-decoration: none;
+     font-size: 18px;
+     line-height: 30px;
+     padding: 15px;
+     margin: 5px;
+     display: inline-block;
+     font-weight: 300;
+     letter-spacing: 2px;
+   }
+   header nav a span {
+     display: inline-block;
+   }
+   header nav a span:after {
+     content: "";
+     display: block;
+     margin: 0 auto;
+     width: 0;
+     height: 2px;
+     background-color: #00ab00;
+     -webkit-transition: opacity .3s ease, width .3s ease;
+     -moz-transition: opacity .3s ease, width .3s ease;
+     -o-transition: opacity .3s ease, width .3s ease;
+     transition: opacity .3s ease, width .3s ease;
+     -ms-transition: opacity .3s ease, width .3s ease;
+   }
+   header nav a:hover span:after {
+     width: 100%;
+   }
+   
+
+body{
+     Margin: 0;
+     Padding: 0;
+     justify-content: center;
+     align-items: center;
+     font-size: 16px;
+     background: url("nature.jpg") no-repeat center / cover;
+     box-sizing: border-box;
+}
+.contain{
+     Margin: 0;
+     Padding: 0;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     font-size: 16px;
+}     
+.Logincontainer{
+display: flex;
+flex-direction: column;
+width: 50vw;
+border-radius: 5%;
+min-height: 20rem;
+height: 80vh;
+max-height: fit-content;
+display:  flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.imagecontainer{
+     width: 7rem;
+     height: 8rem;
+
+}
+.Logincontainer h1{
+     color: white;
+}
+.Logincontainer input{
+     margin: 2% 0%;
+     border: none;
+     width: 30%;
+     text-align: center;
+     height: 1.7rem;
+     background-color: #e0dede;
+     border-radius: 5px;
+     outline: none;
+}
+.Logincontainer input:focus{
+     background-color: #d4f8dd;
+}
+.Logincontainer button{
+     width:25%;
+    height: 1.7rem;
+    margin: 0px 50px;
+    justify-content: center;
+    display: block;
+    color: #fff;
+    background: #13cf42;
+    font-size: ;
+    font-weight: bold;
+    margin-top: 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+.a1{
+     color:white;
+     height: 25px;
+     background-color: rgb(0, 119, 255);
+     margin-top: 5px;
+     border-radius: 5px;
+     font-size: 15px;
+     width: 25%;
+     justify-content: center;
+     display: block;
+     text-align: center;
+     font-weight: bold;
+     margin-top: 20px;
+     padding-top: 5px;
+     text-decoration: none;
+}
+.Logincontainer button:hover{
+     background-color: #037d22;
+     cursor: pointer;
+}
+.a1:hover{
+     background-color: rgb(2, 89, 189);
+     cursor: pointer;
+     }
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48,
+  
+}
+#accountLogin{
+     color: white;
+     font-size : 6.37rem;
+}
